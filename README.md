@@ -7,7 +7,7 @@
 
 # Update 20200421
 
-修改默认模板为本科论文格式,整合了 [更改封面](https://github.com/stone-zeng/fduthesis/issues/142) 和 [删除分类号]https://github.com/stone-zeng/fduthesis/issues/192 的更新。
+修改默认模板为本科论文格式,整合了 [更改封面](https://github.com/stone-zeng/fduthesis/issues/142) 和 [删除分类号](https://github.com/stone-zeng/fduthesis/issues/192) 的更新。
 
 使用方法：
 1. 打开Overleaf项目 https://www.overleaf.com/latex/templates/fduthesis-latex-thesis-template-for-fudan-university/svtdhhstkmkt 
