@@ -5,6 +5,14 @@
 [![CTAN](https://img.shields.io/ctan/v/fduthesis.svg)](https://www.ctan.org/pkg/fduthesis)
 [![GitHub release](https://img.shields.io/github/release/stone-zeng/fduthesis/all.svg)](https://github.com/stone-zeng/fduthesis/releases/latest)
 
+# Update 20200505
+
+将毕业论文转换为Word文档格式只需要，下载pandoc和pandoc-crossref软件放在目录下并运行以下命令即可：
+
+```
+pandoc --citeproc --number-sections --toc --filter pandoc-crossref --bibliography=fduthesis-template.bib fduthesis-template.tex  -o thesis.docx
+```
+
 # Update 20200421
 
 修改默认模板为本科论文格式,整合了 [更改封面](https://github.com/stone-zeng/fduthesis/issues/142) 和 [删除分类号](https://github.com/stone-zeng/fduthesis/issues/192) 的更新。
