@@ -7,7 +7,7 @@
 
 # Update 20200505
 
-将毕业论文转换为Word文档格式只需要，下载pandoc和pandoc-crossref软件放在目录下并运行以下命令即可：
+将毕业论文转换为Word文档格式，只需要下载[pandoc](https://github.com/jgm/pandoc/releases)和[pandoc-crossref](https://github.com/lierdakil/pandoc-crossref/releases)软件放在docs目录下，并运行以下命令即可：
 
 ```
 pandoc --citeproc --number-sections --toc --filter pandoc-crossref --bibliography=fduthesis-template.bib fduthesis-template.tex  -o thesis.docx
